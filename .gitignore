@@ -1,0 +1,64 @@
+# -------------------------
+# Python & Build Artifacts
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.so
+
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+.venv/
+env/
+venv/
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# FastAPI / Uvicorn
+# -------------------------
+*.log
+
+# -------------------------
+# VS Code / Editor Files
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS Generated Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# uv cache / lock files
+# -------------------------
+.uv_cache/
+uv.lock
+
+# -------------------------
+# Python tooling
+# -------------------------
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.cache/
+

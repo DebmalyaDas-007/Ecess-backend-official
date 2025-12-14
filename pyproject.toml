@@ -11,4 +11,5 @@ dependencies = [
     "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
     "uvicorn[standard]>=0.38.0",
+    "passlib[bcrypt]>=1.7.4"
 ]
